@@ -177,6 +177,9 @@ CMakeLists.txt
 
 Nie ma natomiast potrzeby przesyłania plików tymczasowych, pamięci podręcznej IDE ani skompilowanych programów.
 
+W repozytorium znajduje się plik `.gitignore`, który standardowo wyklucza z kontroli wersji typowe pliki generowane przez kompilator, IDE oraz system operacyjny. W zależności od używanego środowiska pliki te mogą być wizualnie oznaczone jako ignorowane — przykładowo w Visual Studio Code są zazwyczaj wyświetlane na szaro i nie są uwzględniane przy dodawaniu zmian do commita.
+
+
 ---
 
 # Własne notatki
