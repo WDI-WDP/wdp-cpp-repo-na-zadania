@@ -1,0 +1,183 @@
+# ============================================================
+# C++ - pliki generowane podczas kompilacji
+# ============================================================
+
+# Pliki obiektowe
+*.o
+*.obj
+*.lo
+
+# Biblioteki
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+
+# Pliki wykonywalne
+*.exe
+*.out
+*.app
+
+# Pliki debugowania
+*.pdb
+*.ilk
+*.dSYM/
+*.su
+*.idb
+
+# Pliki prekompilowanych nagłówków
+*.gch
+*.pch
+
+# Inne pliki generowane przez kompilatory
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+
+# ============================================================
+# CMake
+# ============================================================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Typowe katalogi budowania CMake
+build/
+build-*/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/
+cmake-build-minsizerel/
+
+
+# ============================================================
+# CLion
+# ============================================================
+
+.idea/
+
+# CLion korzysta z CMake, dlatego katalogi:
+# cmake-build-* są ignorowane powyżej.
+
+
+# ============================================================
+# Visual Studio Code
+# ============================================================
+
+.vscode/
+
+# Jeżeli w przyszłości konfiguracja VS Code ma być
+# współdzielona między użytkownikami repozytorium,
+# można usunąć powyższą regułę i ignorować tylko
+# wybrane pliki lokalne.
+
+
+# ============================================================
+# Visual Studio
+# ============================================================
+
+.vs/
+
+# Konfiguracja lokalna użytkownika
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# Wyniki kompilacji
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache / intermediate
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+ipch/
+
+
+# ============================================================
+# Code::Blocks
+# ============================================================
+
+# Plik projektu *.cbp NIE jest ignorowany,
+# ponieważ pozwala ponownie otworzyć projekt.
+
+*.depend
+*.layout
+
+# Katalogi generowane podczas kompilacji
+bin/
+obj/
+
+
+# ============================================================
+# Pliki tymczasowe edytorów
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Vim
+.vim/
+
+# Emacs
+\#*\#
+.#*
+
+
+# ============================================================
+# System operacyjny - Windows
+# ============================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+
+# ============================================================
+# System operacyjny - macOS
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+
+# ============================================================
+# System operacyjny - Linux
+# ============================================================
+
+.directory
+.Trash-*
+
+
+# ============================================================
+# Inne pliki lokalne
+# ============================================================
+
+*.log
